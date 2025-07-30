@@ -1,1 +1,27 @@
-<!DOCTYPE html><html><head><title>Signup - StartEdge</title></head><body><h2>Signup</h2><form><input type='text' placeholder='Name'><br><input type='email' placeholder='Email'><br><input type='password' placeholder='Password'><br><button>Signup</button></form></body></html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup - StartEdge</title>
+    <style>
+        body { font-family: Arial; background: #f0f0f0; padding: 50px; }
+        .form-container { background: white; padding: 30px; max-width: 400px; margin: auto; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        input[type=text], input[type=email], input[type=password] { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: 1px solid #ccc; }
+        input[type=submit] { background: #007BFF; color: white; padding: 10px; border: none; width: 100%; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Create Your Account</h2>
+        <form action="#">
+            <label>Full Name:</label>
+            <input type="text" required>
+            <label>Email:</label>
+            <input type="email" required>
+            <label>Password:</label>
+            <input type="password" required>
+            <input type="submit" value="Signup">
+        </form>
+    </div>
+</body>
+</html>
